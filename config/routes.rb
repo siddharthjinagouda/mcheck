@@ -1,4 +1,6 @@
 Mcheck::Application.routes.draw do
+  resources :locations
+
   resources :categories
 
   resources :products
